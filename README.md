@@ -19,7 +19,7 @@ The dataset was split into training (70%) and testing (30%) datasets.
 - `model.pkl`: Trained machine learning model.
 
 ## Technologies Used
-- **Programming Language**: Python 🐍
+- **Programming Language**: Python 🔰
 - **Libraries**:
   - Data Manipulation: `pandas`, `numpy`
   - Preprocessing: `scikit-learn`
@@ -99,17 +99,38 @@ The prediction pipeline (`PredictPipeline`) includes:
    print("Predicted Price:", prediction)
    ```
 
-## Challenges and Learnings 🧠
+## Challenges and Learnings 🧪
 - **Challenge**: Handling categorical data encoding with ordinal features.
   - **Solution**: Used `OrdinalEncoder` with custom category rankings for categorical features.
 - **Challenge**: Ensuring robust preprocessing for both training and testing datasets.
   - **Solution**: Implemented a unified `ColumnTransformer` pipeline.
 
+## Streamlit App 🎮
+Access the web application for real-time price prediction:
+[Diamond Price Prediction App](https://diamondpriceprediction-aryandhanuka10.streamlit.app/)
+
+## Contribution Steps 📚
+We welcome contributions to improve this project! Follow these steps:
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add detailed description of your changes"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Create a pull request describing your changes.
+
 ## Future Scope 🌟
 - Extend the project to include additional models such as Random Forest or Gradient Boosting.
 - Develop a web application for real-time price prediction.
 
-## Acknowledgments 🙏
+## Acknowledgments 🙇
 - [Kaggle Dataset](https://www.kaggle.com/code/ramakrishnanthiyagu/gem-price-prediction) for providing the diamond dataset.
 - Various Python libraries and tools used in the project.
 
