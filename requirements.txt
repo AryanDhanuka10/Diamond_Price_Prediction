@@ -1,0 +1,11 @@
+numpy
+pandas 
+flask
+seaborn
+scikit-learn
+gdown
+streamlit
+black
+isort
+
+# -e . # just to trigger setup.py
